@@ -103,7 +103,7 @@ export function FUIDarkHeroSection() {
         <div className="mr-auto max-w-2xl mt-20 lg:max-w-3xl lg:px-3">
           <h1 className="font-geist text-5xl font-normal  tracking-tighter  bg-gradient-to-r from-zinc-100 via-stone-200/80 to-purple-200/80 bg-clip-text  text-transparent sm:text-7xl">
             <span className="sr-only">DeceptiConf - </span>A design agency -{" "}
-            <br /> for a businesses side.
+            <br /> for a businesses sides.
           </h1>
           <div className="mt-6 space-y-6 font-geist text-md sm:text-xl tracking-tight text-gray-500">
             <p>
