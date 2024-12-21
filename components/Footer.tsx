@@ -61,9 +61,10 @@ const Footer = () => {
 
 export default Footer;
 import { PlusGrid, PlusGridItem, PlusGridRow } from "./PlusGrid";
-import { Heading } from "./ui/text";
-import { Button } from "./ui/button";
+import { Heading, Subheading } from "./ui/text";
+import { Button } from "./ui/MovingBorders";
 import { Container } from "./Hero";
+import Link from "next/link";
 function CallToAction() {
   return (
     <div className="relative pb-16 pt-20 text-center sm:py-24">
@@ -85,7 +86,7 @@ function CallToAction() {
       <div className="mt-6">
         <Button
           variant={"secondary"}
-          className="w-full rounded-xl px-4 py-6 sm:w-auto"
+          className="w-full [] rounded-xl px-10 py-6 sm:w-auto"
         >
           Get started
         </Button>
@@ -224,7 +225,7 @@ function Copyright() {
 export function Footer2() {
   return (
     <footer className="mt-16">
-      <Gradient className="relative">
+      <div className="relative">
         <div className="absolute inset-2 rounded-4xl" />
         <img
           className="absolute -top-20 left-0 right-0 m-3 h-[600px] w-full scale-x-[-1] transform rounded-2xl opacity-30"
@@ -266,7 +267,7 @@ export function Footer2() {
             </PlusGridRow>
           </PlusGrid>
         </Container>
-      </Gradient>
+      </div>
     </footer>
   );
 }
