@@ -217,7 +217,7 @@ function SocialLinks() {
 function Copyright() {
   return (
     <div className="text-sm/6 text-gray-950 dark:text-gray-100">
-      &copy; {new Date().getFullYear()} PERK AI.
+      &copy; {new Date().getFullYear()} SPACE HOLE
     </div>
   );
 }
@@ -244,7 +244,7 @@ export function Footer2() {
                 <div className="col-span-2 flex">
                   <PlusGridItem className="pt-6 lg:pb-6">
                     <h1 className="text-2xl font-semibold tracking-tighter dark:text-gray-300">
-                      PERK <span className="text-white">AI</span>
+                      space <span className="text-white">hole</span>
                     </h1>
                   </PlusGridItem>
                 </div>
