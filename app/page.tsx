@@ -6,12 +6,12 @@ import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero, { FUIDarkHeroSection, FUIHeroWithJelly } from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
+import { SecondaryFeatures } from "@/components/SecodaryFeature";
 import Skills from "@/components/Skills";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { Header } from "@/components/ui/Header";
 import { navItems } from "@/data";
 import Head from "next/head";
-
 export default function Home() {
   return (
     <div className="relative">
@@ -20,6 +20,7 @@ export default function Home() {
         <FUIDarkHeroSection />
         <div className="max-w-7xl w-full">
           <FUIBentoGridDark />
+          <SecondaryFeatures />
           {/* <Client /> */}
           <Experience />
           <Approach />
