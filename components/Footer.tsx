@@ -86,7 +86,7 @@ function CallToAction() {
       <div className="mt-6">
         <Button
           variant={"secondary"}
-          className="w-full [] rounded-xl px-10 py-6 sm:w-auto"
+          className="w-full rounded-lg px-5 py-5 sm:w-auto"
         >
           Get started
         </Button>
