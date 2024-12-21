@@ -5,9 +5,6 @@ import Image, { type ImageProps } from "next/image";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
 import clsx from "clsx";
 import { Container } from "./Hero";
-import screenshotContacts from "@/images/screenshots/contacts.png";
-import screenshotInventory from "@/images/screenshots/inventory.png";
-import screenshotProfitLoss from "@/images/screenshots/profit-loss.png";
 
 interface Feature {
   name: React.ReactNode;
@@ -23,7 +20,8 @@ const features: Array<Feature> = [
     summary: "Stay on top of things with always up-to-date reporting features.",
     description:
       "We talked about reporting in the section above but we needed three items here, so mentioning it one more time for posterity.",
-    image: screenshotProfitLoss,
+    image:
+      "https://framerusercontent.com/images/jvlcne0ABTxg7RFwM1Ra0R1p47E.png?scale-down-to=1024",
     icon: function ReportingIcon() {
       let id = useId();
       return (
@@ -58,7 +56,8 @@ const features: Array<Feature> = [
       "Never lose track of what’s in stock with accurate inventory tracking.",
     description:
       "We don’t offer this as part of our software but that statement is inarguably true. Accurate inventory tracking would help you for sure.",
-    image: screenshotInventory,
+    image:
+      "https://framerusercontent.com/images/jvlcne0ABTxg7RFwM1Ra0R1p47E.png?scale-down-to=1024",
     icon: function InventoryIcon() {
       return (
         <>
@@ -86,7 +85,8 @@ const features: Array<Feature> = [
       "Organize all of your contacts, service providers, and invoices in one place.",
     description:
       "This also isn’t actually a feature, it’s just some friendly advice. We definitely recommend that you do this, you’ll feel really organized and professional.",
-    image: screenshotContacts,
+    image:
+      "https://framerusercontent.com/images/jvlcne0ABTxg7RFwM1Ra0R1p47E.png?scale-down-to=1024",
     icon: function ContactsIcon() {
       return (
         <>
@@ -154,10 +154,12 @@ function FeaturesMobile() {
           <div className="relative mt-10 pb-10">
             <div className="absolute -inset-x-4 bottom-0 top-8 bg-slate-200 sm:-inset-x-6" />
             <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-gray-200/5 ring-1 ring-slate-500/10">
-              <Image
+              <img
                 className="w-full"
                 src={feature.image}
                 alt=""
+                width="1000"
+                height="1000"
                 sizes="52.75rem"
               />
             </div>
@@ -205,7 +207,7 @@ function FeaturesDesktop() {
                   aria-hidden={featureIndex !== selectedIndex}
                 >
                   <div className="w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-gray-200/5 ring-1 ring-slate-500/10">
-                    <Image
+                    <img
                       className="w-full"
                       src={feature.image}
                       alt=""
