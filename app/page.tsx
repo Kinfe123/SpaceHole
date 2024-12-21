@@ -2,7 +2,7 @@ import Approach from "@/components/Approach";
 import Client from "@/components/Client";
 import Experience from "@/components/Experience";
 import FUIBentoGridDark from "@/components/FeatureAsBento";
-import Footer from "@/components/Footer";
+import Footer, { Footer2 } from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero, { FUIDarkHeroSection, FUIHeroWithJelly } from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
@@ -27,7 +27,8 @@ export default function Home() {
         <div className="max-w-7xl w-full m:px-10 px-5">
           <Experience />
           <Approach />
-          <Footer />
+          <Footer2 />
+          {/* <Footer /> */}
         </div>
       </main>
     </div>
