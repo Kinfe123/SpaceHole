@@ -16,11 +16,15 @@ export default function Home() {
   return (
     <div className="relative">
       <Header />
-      <main className="bg-black-100 relative flex justify-center items-center flex-col w-screen overflow-clip mx-auto sm:px-10 px-5">
+      <main className="bg-black-100  relative flex gap-8 justify-center items-center flex-col w-screen overflow-clip mx-auto s">
         <FUIDarkHeroSection />
-        <div className="max-w-7xl w-full">
+        <div className="max-w-7xl m:px-10 px-5 w-full">
           <FUIBentoGridDark />
+        </div>
+        <div className="w-full">
           <SecondaryFeatures />
+        </div>
+        <div className="max-w-7xl w-full m:px-10 px-5">
           <Experience />
           <Approach />
           <Footer />
