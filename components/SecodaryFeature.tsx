@@ -239,15 +239,6 @@ export function SecondaryFeatures() {
               "linear-gradient(143.6deg, rgba(52, 103, 235, 0) 20.79%, rgba(120,119,198, 0.26) 40.92%, rgba(120,119,198, 0) 70.35%)",
           }}
         ></div>
-        {/* <img
-          className="absolute inset-x-0 -top-0 opacity-75 "
-          src={
-            "https://pipe.com/_next/image?url=%2Fassets%2Fimg%2Fhero-left.png&w=384&q=75"
-          }
-          width={1000}
-          height={1000}
-          alt="back bg"
-        /> */}
         <div className="mr-auto max-w-2xl md:text-start">
           <h2 className="font-display  text-4xl tracking-tight text-gray-200 sm:text-7xl">
             <span className="bg-gradient-to-br from-indigo-400 via-indigo-300 to-indigo-700 bg-clip-text text-transparent">
