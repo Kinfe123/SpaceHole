@@ -28,7 +28,6 @@ export default function Home() {
 
         <div className="max-w-7xl w-full m:px-10 px-5">
           <FUIPricingWithSpecialTwo />
-          <Experience />
           <Approach />
           <Faq />
           <Footer2 />
