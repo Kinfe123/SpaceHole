@@ -114,7 +114,7 @@ export default function FUIPricingWithSpecialTwo() {
                     </ul>
                   </div>
 
-                  <button className="group mt-5 relative flex flex-row items-center bg-purple-700 justify-center gap-2 rounded-xl px-4 py-4 text-md font-medium shadow-[inset_0_-8px_10px_#8fdfff1f] transition-shadow duration-500 ease-out hover:shadow-[inset_0_-5px_10px_#8fdfff3f]">
+                  <button className="group mt-5 relative flex flex-row items-center bg-purple-700 justify-center gap-2 rounded-3xl px-4 py-4 text-md font-medium shadow-[inset_0_-8px_10px_#8fdfff1f] transition-shadow duration-500 ease-out hover:shadow-[inset_0_-5px_10px_#8fdfff3f]">
                     <div className="absolute inset-0 block h-full w-full animate-gradient bg-gradient-to-r from-[#ffaa40]/50 via-[#9c40ff]/50 to-[#ffaa40]/50 bg-[length:var(--bg-size)_100%] [border-radius:inherit] [mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] p-[1px] ![mask-composite:subtract]"></div>
                     <svg
                       className="size-4 text-[#ffaa40]"
@@ -185,7 +185,7 @@ export default function FUIPricingWithSpecialTwo() {
                     data-orientation="vertical"
                   ></div>
                   <span className="inline animate-gradient whitespace-pre bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent [--bg-size:300%] text-center">
-                    Get Access
+                    Access Custom
                   </span>
                   <svg
                     stroke-linecap="round"
