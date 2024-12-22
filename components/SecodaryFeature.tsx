@@ -156,7 +156,7 @@ function FeaturesMobile() {
             <div className="relative mx-auto w-[52.75rem] overflow-hidden rounded-xl bg-white shadow-lg shadow-gray-200/5 ring-1 ring-slate-500/10">
               <img
                 className="w-full"
-                src={feature.image}
+                src={feature.image as string}
                 alt=""
                 width="1000"
                 height="1000"
@@ -209,7 +209,7 @@ function FeaturesDesktop() {
                   <div className="w-[52.75rem] overflow-hidden rounded-xl bg-transparent shadow-lg shadow-gray-200/5 ring-1 ring-slate-500/10">
                     <img
                       className="w-full"
-                      src={feature.image}
+                      src={feature.image as string}
                       alt=""
                       sizes="52.75rem"
                     />
