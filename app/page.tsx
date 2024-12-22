@@ -1,14 +1,12 @@
 import Approach from "@/components/Approach";
 import Client from "@/components/Client";
 import Experience from "@/components/Experience";
+import { Faq } from "@/components/Faq";
 import FUIBentoGridDark from "@/components/FeatureAsBento";
 import Footer, { Footer2 } from "@/components/Footer";
-import Grid from "@/components/Grid";
-import Hero, { FUIDarkHeroSection, FUIHeroWithJelly } from "@/components/Hero";
+import { FUIDarkHeroSection, FUIHeroWithJelly } from "@/components/Hero";
 import FUIPricingWithSpecialTwo from "@/components/Pricing";
-import RecentProjects from "@/components/RecentProjects";
 import { SecondaryFeatures } from "@/components/SecodaryFeature";
-import Skills from "@/components/Skills";
 import FUITestimonialWithSlide from "@/components/Testimonial";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { Header } from "@/components/ui/Header";
@@ -32,6 +30,7 @@ export default function Home() {
           <FUIPricingWithSpecialTwo />
           <Experience />
           <Approach />
+          <Faq />
           <Footer2 />
           {/* <Footer /> */}
         </div>
