@@ -79,7 +79,8 @@ function CallToAction() {
           Start your free trial today.
         </Heading>
       </hgroup>
-      <p className="mx-auto mt-6 max-w-xs text-sm/6 text-gray-900 dark:text-gray-500">
+
+      <p className="mx-auto text-lg leading-8 text-white/60 max-w-md mt-2 text-gray-600 dark:text-gray-500">
         Get the cheat codes for selling and unlock your team&apos;s revenue
         potential.
       </p>

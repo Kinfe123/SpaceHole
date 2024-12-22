@@ -119,7 +119,7 @@ export function Faq() {
           <h2 className="heading text-3xl font-semibold mb-3 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 dark:from-white dark:via-gray-100 dark:to-white bg-clip-text text-transparent">
             FAQ
           </h2>
-          <p className="text-sm max-w-2xl mx-auto text-gray-600 dark:text-gray-400">
+          <p className="mx-auto text-lg leading-8 text-white/60 max-w-2xl text-gray-600 dark:text-gray-400">
             Everything you need to know about our platform
           </p>
         </motion.div>
