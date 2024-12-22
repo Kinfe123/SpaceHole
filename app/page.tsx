@@ -8,6 +8,7 @@ import Hero, { FUIDarkHeroSection, FUIHeroWithJelly } from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
 import { SecondaryFeatures } from "@/components/SecodaryFeature";
 import Skills from "@/components/Skills";
+import FUITestimonialWithSlide from "@/components/Testimonial";
 import { FloatingNav } from "@/components/ui/FloatingNav";
 import { Header } from "@/components/ui/Header";
 import { navItems } from "@/data";
@@ -26,6 +27,7 @@ export default function Home() {
         </div>
         <div className="max-w-7xl w-full m:px-10 px-5">
           <Experience />
+          <FUITestimonialWithSlide />
           <Approach />
           <Footer2 />
           {/* <Footer /> */}
