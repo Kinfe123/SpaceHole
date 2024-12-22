@@ -25,13 +25,11 @@ export default function Home() {
           <SecondaryFeatures />
         </div>
         <FUITestimonialWithSlide />
-
         <div className="max-w-7xl w-full m:px-10 px-5">
           <FUIPricingWithSpecialTwo />
           <Approach />
           <Faq />
           <Footer2 />
-          {/* <Footer /> */}
         </div>
       </main>
     </div>
