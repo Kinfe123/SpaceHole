@@ -143,7 +143,7 @@ export function Faq() {
             Still have questions?
           </p>
           <p className="text-md text-gray-600 dark:text-gray-400 mb-4">
-            We're here to help you
+            We&apos;re here to help you
           </p>
           <button
             type="button"
