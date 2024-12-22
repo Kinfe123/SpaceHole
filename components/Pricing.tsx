@@ -175,12 +175,41 @@ export default function FUIPricingWithSpecialTwo() {
                     Odit omnis non voluptatem sunt eos nostrum.
                   </p>
                 </div>
-                <a
-                  href="#"
-                  className="rounded-md px-3.5 py-2 text-sm font-semibold leading-6 text-purple ring-1 ring-inset ring-purple-500/90 hover:ring-purple-600/90 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-purple-600/90"
-                >
-                  Buy discounted license <span aria-hidden="true">→</span>
-                </a>
+
+                <button className="group mt-5 relative flex flex-row items-center bg-purple-700 justify-center gap-2 rounded-3xl px-3 py-3 text-md font-medium shadow-[inset_0_-8px_10px_#8fdfff1f] transition-shadow duration-500 ease-out hover:shadow-[inset_0_-5px_10px_#8fdfff3f]">
+                  <div className="absolute inset-0 block h-full w-full animate-gradient bg-gradient-to-r from-[#ffaa40]/50 via-[#9c40ff]/50 to-[#ffaa40]/50 bg-[length:var(--bg-size)_100%] [border-radius:inherit] [mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] p-[1px] ![mask-composite:subtract]"></div>
+
+                  <div
+                    className="shrink-0 bg-border w-[1px] h-4"
+                    role="none"
+                    data-orientation="vertical"
+                  ></div>
+                  <span className="inline animate-gradient whitespace-pre bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent [--bg-size:300%] text-center">
+                    Get Access
+                  </span>
+                  <svg
+                    stroke-linecap="round"
+                    className="text-[#9c40ff]"
+                    stroke-width="1.5"
+                    aria-hidden="true"
+                    viewBox="0 0 10 10"
+                    height="11"
+                    width="11"
+                    stroke="currentColor"
+                    fill="none"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      d="M0 5h7"
+                      className="opacity-0 duration-500 group-hover:duration-500 transition group-hover:opacity-100"
+                    ></path>
+                    <path
+                      stroke-linecap="round"
+                      d="M1 1l4 4-4 4"
+                      className="transition duration-500 group-hover:duration-500 group-hover:translate-x-[3px]"
+                    ></path>
+                  </svg>
+                </button>
               </div>
             </div>
           </div>
