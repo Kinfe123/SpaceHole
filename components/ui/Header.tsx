@@ -69,7 +69,7 @@ const Cursor = ({ position }) => {
       animate={{
         ...position,
       }}
-      className="absolute z-0 h-7 rounded-full bg-transparent bg-glass-gradient  md:h-11 "
+      className="absolute z-0 h-7 rounded-full dark:[border:1px_solid_rgba(255,255,255,.1)] dark:[box-shadow:0_-20px_80px_-20px_#8686f01f_inset] bg-hero-gradient  md:h-10 "
     />
   );
 };
