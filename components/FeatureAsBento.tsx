@@ -4,20 +4,28 @@ import { motion } from "framer-motion";
 import GridGlobe from "./ui/GridGlobe";
 export default function FUIBentoGridDark() {
   return (
-    <div className="pt-12 container mx-auto">
+    <div className="pt-12 ">
       <h1 className="font-geistMono tracking-tight text-3xl md:text-5xl">
         Sales
       </h1>
-      <p className="max-w-3xl text-2xl/8 font-medium tracking-tight mt-2 bg-gradient-to-br from-black/90 to-black/80 bg-clip-text text-transparent dark:from-white dark:to-white/40">
+      <p className="max-w-3xl text-xl font-medium tracking-tight mt-2 bg-gradient-to-br from-black/90 to-black/80 bg-clip-text text-transparent dark:from-white dark:to-white/40">
         Know more about your customers than they do.
       </p>
-      <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
+      <div className="mt-3 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <BentoCard
           eyebrow="Insight"
           title="Get perfect clarity"
           description="PerkAI uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
           graphic={
-            <div className="absolute inset-0 bg-[url(https://framerusercontent.com/images/ghyfFEStl6BNusZl0ZQd5r7JpM.png)] object-fill" />
+            <div>
+              <img src={"/grid.svg"} />
+              <img
+                src={
+                  "https://framerusercontent.com/images/mS28QhWcSped7JSQ7vltnisa5c8.png?scale-down-to=1024"
+                }
+                className="scale-100 -mt-40 ml-20 w-[90%] h-[90%] hidden md:block ml-auto"
+              />
+            </div>
           }
           className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
         />
