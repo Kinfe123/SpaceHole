@@ -5,6 +5,7 @@ import FUIBentoGridDark from "@/components/FeatureAsBento";
 import Footer, { Footer2 } from "@/components/Footer";
 import Grid from "@/components/Grid";
 import Hero, { FUIDarkHeroSection, FUIHeroWithJelly } from "@/components/Hero";
+import FUIPricingWithSpecialTwo from "@/components/Pricing";
 import RecentProjects from "@/components/RecentProjects";
 import { SecondaryFeatures } from "@/components/SecodaryFeature";
 import Skills from "@/components/Skills";
@@ -26,7 +27,9 @@ export default function Home() {
           <SecondaryFeatures />
         </div>
         <FUITestimonialWithSlide />
+
         <div className="max-w-7xl w-full m:px-10 px-5">
+          <FUIPricingWithSpecialTwo />
           <Experience />
           <Approach />
           <Footer2 />
