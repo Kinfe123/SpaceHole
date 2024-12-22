@@ -25,9 +25,9 @@ export default function Home() {
         <div className="w-full">
           <SecondaryFeatures />
         </div>
+        <FUITestimonialWithSlide />
         <div className="max-w-7xl w-full m:px-10 px-5">
           <Experience />
-          <FUITestimonialWithSlide />
           <Approach />
           <Footer2 />
           {/* <Footer /> */}
