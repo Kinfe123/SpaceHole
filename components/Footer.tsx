@@ -84,13 +84,36 @@ function CallToAction() {
         Get the cheat codes for selling and unlock your team&apos;s revenue
         potential.
       </p>
-      <div className="mt-6">
-        <Button
-          variant={"secondary"}
-          className="w-full rounded-lg px-5 py-5 sm:w-auto"
-        >
-          Get started
-        </Button>
+      <div className="mt-2 w-full text-center flex justify-center items-center mx-auto">
+        <button className="group  mt-5 relative flex flex-row items-center bg-purple-700 justify-center gap-2 rounded-3xl px-4 py-3 text-md font-medium shadow-[inset_0_-8px_10px_#8fdfff1f] transition-shadow duration-500 ease-out hover:shadow-[inset_0_-5px_10px_#8fdfff3f]">
+          <div className="absolute inset-0 block h-full w-full animate-gradient bg-gradient-to-r from-[#ffaa40]/50 via-[#9c40ff]/50 to-[#ffaa40]/50 bg-[length:var(--bg-size)_100%] [border-radius:inherit] [mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] p-[1px] ![mask-composite:subtract]"></div>
+
+          <span className="inline animate-gradient whitespace-pre bg-gradient-to-r from-[#ffaa40] via-[#9c40ff] to-[#ffaa40] bg-[length:var(--bg-size)_100%] bg-clip-text text-transparent [--bg-size:300%] text-center">
+            Get Start Now
+          </span>
+          <svg
+            stroke-linecap="round"
+            className="text-[#9c40ff]"
+            stroke-width="1.5"
+            aria-hidden="true"
+            viewBox="0 0 10 10"
+            height="11"
+            width="11"
+            stroke="currentColor"
+            fill="none"
+          >
+            <path
+              stroke-linecap="round"
+              d="M0 5h7"
+              className="opacity-0 duration-500 group-hover:duration-500 transition group-hover:opacity-100"
+            ></path>
+            <path
+              stroke-linecap="round"
+              d="M1 1l4 4-4 4"
+              className="transition duration-500 group-hover:duration-500 group-hover:translate-x-[3px]"
+            ></path>
+          </svg>
+        </button>
       </div>
     </div>
   );
