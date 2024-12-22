@@ -53,7 +53,7 @@ export default function FUIPricingWithSpecialTwo() {
           </p>
           <svg
             viewBox="0 0 1208 1024"
-            className="absolute opacity-35 -top-10 left-1/2 -z-8 h-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:-top-12 md:-top-20 lg:-top-12 xl:top-0"
+            className="absolute opacity-30 -top-10 left-1/2 -z-8 h-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:-top-12 md:-top-20 lg:-top-12 xl:top-0"
           >
             <ellipse
               cx={604}
